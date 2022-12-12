@@ -1,9 +1,28 @@
+
+:root {
+
+
+  --primary-color-400: #49c5b6;
+  --secondary-color-400: #FF9398;
+  --font-color-white: #fff;
+  --font-color-black: #000;
+  --pw: 80em;
+
+
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+/* Setter noen globale variabler her */
+
+    background-color: var(--primary-color-400);
+  max-width: var(--pw);
+  margin-inline: auto;
 }
 
 a {
@@ -14,6 +33,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+button {
+  border: none;
+  color: var(--font-color-white);
+  width: 10rem;
+  height: 2rem;
+  background-color: var(--secondary-color-400);
+  cursor: pointer;
+
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {
