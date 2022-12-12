@@ -19,7 +19,7 @@ export default function Login () {
                 <input type="password" name="" id="" />
                 <button type="submit" className={styles.login__button}>Login</button>
             </form>
-            <p>Don't have an account? <a href="">create</a> one here</p>
+            <p>Dont have an account? <a href="">create</a> one here</p>
         </div>
     )
 
