@@ -1,13 +1,12 @@
 
 :root {
 
-
-  --primary-color-400: #49c5b6;
-  --secondary-color-400: #FF9398;
-  --font-color-white: #fff;
-  --font-color-black: #000;
-  --pw: 80em;
-
+--primary-color-400: #49c5b6;
+--secondary-color-400: #FF9398;
+--font-color-white: #fff;
+--font-color-black: #000;
+/* PW Page Width*/
+--pw: 80em;
 
 }
 
@@ -21,8 +20,8 @@ body {
 /* Setter noen globale variabler her */
 
     background-color: var(--primary-color-400);
-  max-width: var(--pw);
-  margin-inline: auto;
+    max-width: var(--pw);
+    margin-inline: auto;
 }
 
 a {
@@ -34,7 +33,6 @@ a {
   box-sizing: border-box;
 }
 
-
 button {
   border: none;
   color: var(--font-color-white);
@@ -42,7 +40,7 @@ button {
   height: 2rem;
   background-color: var(--secondary-color-400);
   cursor: pointer;
-
+  margin: 1rem;
 }
 
 

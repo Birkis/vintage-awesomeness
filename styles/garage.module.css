@@ -1,0 +1,43 @@
+.car__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--secondary-color-400);
+    border-radius: 15px;
+
+}
+
+
+.car__textInfo {
+    padding-left: 2rem ;
+    grid-column: 2/3;
+    width: 100%;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__carPicture {
+    object-fit: cover;
+    grid-column: 1/2;
+    grid-row: 1;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.car__textInfoItem {
+    display: flex;
+    
+}
+
+
+
+.car__textInfoItem p {
+    padding: 0 1rem;
+}
+
+.car__textInfoItem p:first-child {
+    color:white;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
