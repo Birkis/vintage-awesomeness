@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function friends(props) {
+function friends(props: any) {
   return (
     <div>
         <h1>Friends</h1>
